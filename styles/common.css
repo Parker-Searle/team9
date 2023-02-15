@@ -1,3 +1,7 @@
+* {
+    background-color: lightgray;
+}
+
 .welcome{
     display: flex;
     justify-content: center;
@@ -23,7 +27,7 @@ header > nav > div img{
     justify-content:flex-start;
     margin: 10px;
 }
-header > nav > .des a{
+header > nav > .des {
     width: 100px;
     display: flex;
     justify-content:flex-end;
