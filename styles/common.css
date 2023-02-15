@@ -13,12 +13,20 @@
     font-size: 40px;
 }
 
-header > nav > img {
-    width: 100px;
+header > nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    display: flex;
-    justify-content: center;
 }
-
+header > nav > div img{
+    width: 100px;
+    display: flex;
+    justify-content:flex-start;
+    margin: 10px;
+}
+header > nav > .des a{
+    width: 100px;
+    display: flex;
+    justify-content:flex-end;
+    margin: 10px;
+}
    
