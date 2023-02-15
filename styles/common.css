@@ -1,0 +1,12 @@
+.welcome h1{
+    display: flex;
+    justify-content: center;
+    font-size:150px;
+    font-family: 'Poppins', sans-serif;
+}
+.welcome h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
