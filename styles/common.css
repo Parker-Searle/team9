@@ -69,15 +69,14 @@ section p{
 
 footer{
     width: max;
-    height: 120px;
     background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-footer > .nav-footer div {
-    
+footer > .nav-footer {
+    margin: 10px;
 }
 
 
