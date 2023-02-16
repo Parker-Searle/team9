@@ -33,7 +33,7 @@ header > nav > div img{
 header > nav > .des {
     width: 100%;
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-around;
 }
 
 header > nav > .des > a {
@@ -52,6 +52,7 @@ position: relative;
 width: 70%;
 margin: auto;
 }
+
 section p{
    margin: 20px;
    display: flex;
