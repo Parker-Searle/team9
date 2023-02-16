@@ -78,16 +78,40 @@ section p{
 }
 
 footer{
-    width: max;
     background-color: whitesmoke;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    font-family: 'Pridi', serif;
+    margin-top: 10px;
+    color: whitesmoke;
+
 }
 
-footer > .nav-footer {
-    margin: 10px;
+footer > .nav-footer > ul >li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    color:#464646;
 }
+
+footer > .nav-footer > ul >li :hover{
+text-decoration: underline;
+color: #E94127;
+}
+
+footer > .nav-footer > .copy {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color:#464646;
+}
+
+
+footer > .nav-footer > ul >.item :hover{
+    text-decoration: underline;
+    color: #E94127;
+    }
 
 
 /* Dropdown Button */
@@ -133,3 +157,11 @@ footer > .nav-footer {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: whitesmoke;}
+
+  .spacer{
+    padding: 30px;
+  }
+
+  .spacer-two{
+    padding: 20px;
+  }
