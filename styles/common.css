@@ -2,6 +2,16 @@ body {
     background-color: lightgray;
 }
 
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 100px 495px;
+    border: 5px solid #E94127;
+    background-color: #343434;
+    width: 500px;
+    border-radius: 5px;
+}
+
 .welcome{
     display: flex;
     justify-content: center;
