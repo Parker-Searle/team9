@@ -1,4 +1,4 @@
-* {
+body {
     background-color: lightgray;
 }
 
@@ -20,6 +20,7 @@
 header > nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
 }
 header > nav > div img{
     width: 100px;
@@ -28,10 +29,17 @@ header > nav > div img{
     margin: 10px;
 }
 header > nav > .des {
-    width: 100px;
+    width: 100%;
     display: flex;
     justify-content:flex-end;
-    margin: 10px;
+}
+
+header > nav > .des > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-top: 18px;
 }
    
 section {
