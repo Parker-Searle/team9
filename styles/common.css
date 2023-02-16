@@ -34,3 +34,8 @@ header > nav > .des {
     margin: 10px;
 }
    
+section {
+display: flex;
+justify-content: space-evenly;
+
+}
