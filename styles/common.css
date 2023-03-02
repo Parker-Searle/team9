@@ -29,6 +29,10 @@ body {
     margin:20px ;
 }
 
+header {
+    width: 100%;
+}
+
 header > nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
